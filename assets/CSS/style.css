@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  body {
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  background-image: url('../images/Montagne.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  justify-content: center;
+  align-items: inherit;
+}
+
+#canvas {
+  padding: 0;
+  margin: auto;
+  display: block;
+  position: relative;
+  width: 700;
+  height: 400;
+  border: 5px solid black;
+
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+div#CV{
+  position:absolute; 
+  width: 100%; 
+  height:auto;
+  align-items: flex-end;
+}
