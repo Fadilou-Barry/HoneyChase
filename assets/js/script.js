@@ -353,3 +353,5 @@ function anime(){
 };
 
 const go = setInterval(anime, 40);
+
+alert('Welcome to the Honey Chase! La course aux Skillz');
