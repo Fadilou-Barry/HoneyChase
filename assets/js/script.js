@@ -41,7 +41,7 @@ function defilementFJ() {
 
 // Le tableau ci-dessous contiendra les pots de miel (le même procéder sera appliqué aux enemies)
 const imagePot = new Image();
-imagePot.src = '/Users/fadiloubarry/Desktop/IFOCOP_DevJS/HoneyChase/assets/images/honeypotsimple.png';
+imagePot.src = 'assets/images/honeypotsimple.png';
 const tabPotsDeMiel = []; 
 class PotsDeMiel {
   constructor(){
@@ -93,7 +93,7 @@ function afficherPDM(){
 // Ours
 
 const spriteours = new Image();
-spriteours.src = '/Users/fadiloubarry/Desktop/IFOCOP_DevJS/HoneyChase/assets/images/Bear_copie.png';
+spriteours.src = 'assets/images/Bear_copie.png';
 
 class Ours {
   constructor(){
@@ -123,7 +123,7 @@ const grizzly = new Ours();
 /// Loups
 
 const spriteLoup = new Image();
-spriteLoup.src = '/Users/fadiloubarry/Desktop/IFOCOP_DevJS/HoneyChase/assets/images/Loup2.png';
+spriteLoup.src = 'assets/images/Loup2.png';
 
 
 const loups  = {
@@ -195,7 +195,7 @@ function afficherLoups(){
 // Guêpe
 
 const spriteAbeille = new Image();
-spriteAbeille.src = '/Users/fadiloubarry/Desktop/IFOCOP_DevJS/HoneyChase/assets/images/hornet-sprite.png';
+spriteAbeille.src = 'assets/images/hornet-sprite.png';
 
 const abeille  = {
   x: 300,
