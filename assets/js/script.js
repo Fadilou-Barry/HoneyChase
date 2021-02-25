@@ -300,7 +300,7 @@ function FinDeJeu() {
   clearInterval(go);
   alert("Vous avez perdu !");}
 
-  if(score >= 150){
+  if(score >= 160){
     clearInterval(go);
   alert("Félicitations, vous avez les bases !");
   }
